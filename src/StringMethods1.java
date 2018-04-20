@@ -28,7 +28,16 @@ String x = "dog";
 		//    Print the char's position to the console.
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
-		
+		int index=-1;
+		for (int i=0; i<3; i++)
+		{
+			char y = x.charAt(i);
+			if (y=='o')
+			{
+				index=i;
+			}
+		}
+		System.out.println("the character o is at index " +index);
 	}
 }
 
